@@ -1,17 +1,12 @@
 package ru.netology.bonus;
 
-import org.junit.jupiter.api.parallel.Resources;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ArgumentsSource;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.junit.jupiter.params.provider.CsvSource;
 
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class BonusServiceTest {
-
-
 
     @ParameterizedTest
     @CsvFileSource(resources = "/data.csv")
